@@ -1,0 +1,35 @@
+RNAseq ID	EXOME SEQ Normal Sample ID	Patient ID	Sample type	Breed	Age at collection	Sex	Weight	Neutered	Nec/Sx/CT Biopsy	Colllection Date	Tumor Path	Tumor Subtype	Grade	Tumor Location	Tumor Location 2
+Glioma_1	GN2	487903	Glioma	Boston Terr	9	M	12.3	Yes	Nec	1/27/2017	GBM	OA	II	M	R
+Glioma_2	GN3	487899	Glioma	Fr Bulldog	3	M	20.1	Yes	Nec	1/14/2017	GBM	O	II	H	R
+Glioma_3	GN4	342013	Glioma	Bulldog	12	M	51	No	Nec	12/6/2002	GBM	A	IV	H	R
+Glioma_5	GN5	348499	Glioma	Border Collie	10	F	43.7	Yes	Nec	10/6/2003	GBM	A	IV	H	R
+Glioma_6	GN6	361836	Glioma	Australian Shep	9	M	63.5	Yes	Nec	3/31/2005	GBM	A	IV	H	R
+Glioma_7	GN7	376153	Glioma	Lab Border Collie Mix	2	M	48.9	Yes	Nec	6/4/2007	GBM	A	IV	H	R
+Glioma_8	GN8	386007	Glioma	Rhod Ridgeback	4	F	85.1	Yes	Sx	1/15/2008	GBM	A	IV	H	R
+Glioma_9	GN9	386806	Glioma	Aus Shephard	2	F	60.6	Yes	Nec	3/7/2008	GBM	A	IV	H	R
+Glioma_10	GN10	368639	Glioma	Min Poodle	11	F	13	Yes	Sx	3/8/2016	GBM	A	III	C	I
+Glioma_11	GN11	467085	Glioma	Mastiff	9	M	212.4	Yes	Sx	3/19/2015	GBM	A	IV	H	R
+Glioma_12	GN12	473195	Glioma	Boxer	11	M	66.4	Yes	Sx	11/3/2015	GBM	A	IV	H	R
+Glioma_13	GN13	486711	Glioma	Fr Buldog	9	F	23.1	Yes	Nec	11/10/2016	GBM	A	IV	H	R
+Glioma_16	GN16	301615	Glioma	Boxer	9	F	61	Yes	Nec	2/7/2005	Oligodendroglioma Grade III	O	III	H	R
+Glioma_17	GN17	342387	Glioma	Lab Retriever	10	F	65.5	Yes	Nec	3/10/2003	Oligodendroglioma Grade III	O	II	H	R
+Glioma_19	GN18	355721	Glioma	WHW Terrier	3	M	19.8	Yes	Nec	8/2/2004	Oligodendroglioma Grade III	O	III	H	R
+Glioma_20	GN19	361994	Glioma	Yellow Lab	8	M	72.8	Yes	CT	3/30/2005	Oligodendroglioma Grade III	O	III	H	R
+Glioma_21	GN20	372455	Glioma	Aus Cattle	4	M	37.7	Yes	Nec	6/19/2006	Oligodendroglioma Grade III	O	III	H	R
+Glioma_22	GN21	381479	Glioma	Lab Retriever	10	M	62	Yes	CT	8/6/2007	Oligodendroglioma Grade III	O	III	H	R
+Glioma_23	GN22	387957	Glioma	Staff Terrier	10	M	68.8	Yes	Nec	4/2/2008	Oligodendroglioma Grade III	O	III	M	R
+Glioma_24	GN23	398975	Glioma	Mastiff Mix	4	M	198.3	Yes	Nec	7/24/2012	Oligodendroglioma Grade III	O	III	M	R
+Glioma_26	GN24	400488	Glioma	Boston Terr	6	M	13.9	No	CT	9/2/2009	Oligodendroglioma Grade III	O	III	H	R
+Glioma_27	GN25	404932	Glioma	Boxer	13	F	62.4	Yes	Nec	11/30/2010	Oligodendroglioma Grade III	O	III	H	R
+Glioma_28	GN26	408433	Glioma	French Bulldog	5	F	19.1	Yes	Nec	7/23/2010	Oligodendroglioma Grade III	O	III	H	R
+Glioma_29	GN27	423574	Glioma	Lab Retriever	10	M	103.8	Yes	Nec	2/26/2011	Oligodendroglioma Grade III	O	III	M	R
+Glioma_30	GN28	444344	Glioma	Boxer	4	M	55.5	Yes	Nec	3/3/2010	Oligodendroglioma Grade III	O	III	U	U
+Glioma_31	GN29	393874	Glioma	Pit Bull Mix	4	M	45.4	Yes	Nec	12/11/2008	Oligodendroglioma Grade III	O	III	M	R
+Glioma_32	GN30	395015	Glioma	Boxer	7	M	55.8	Yes	Sx	1/21/2009	Oligodendroglioma Grade III	O	III	H	R
+Glioma_33	GN31	401549	Glioma	Pit Bull Mix	12	M	44.2	Yes	CT	12/1/2009	Oligodendroglioma Grade III	O	III	H	R
+Glioma_34	GN32	431534	Glioma	English Bull Dog	4	F	50.1	Yes	Nec	1/26/2012	Oligodendroglioma Grade III	O	III	M	R
+Glioma_36	GN33	445293	Glioma	Bull Terrier Mix	7	M	35	No	Nec	9/7/2013	Oligodendroglioma Grade III	O	III	M	R
+Glioma_38	GN34	446494	Glioma	Pit Bull Terrier	12	M	36.6	Yes	Nec	5/3/2013	Oligodendroglioma Grade III	O	III	M	R
+Glioma_40	GN35	356312	Glioma	English Bull Dog	3	M	49.7	Yes	Nec	9/1/2004	Mixed Gllioma Grade III	OA	U	M	R
+Glioma_41	GN36	361638	Glioma	Lab Retriever	10	M	60.3	Yes	Nec	4/15/2005	Mixed Gllioma Grade III	OA	III	H	R
+Glioma_42	GN37	366312	Glioma	Mastiff	5	M	202.5	Yes	Nec	11/4/2005	Mixed Gllioma Grade III	OA	III	M	R

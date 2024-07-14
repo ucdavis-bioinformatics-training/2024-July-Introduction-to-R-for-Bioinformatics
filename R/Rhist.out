@@ -1,0 +1,57 @@
+data2 <- read.csv(file="https://github.com/ucdavis-bioinformatics-training/courses/raw/master/Intro2R/raw_counts.csv", stringsAsFactors=F)
+data2
+apply(data2,MARGIN=1,function(x) (x-min(x))/(max(x)-min(x)))
+t(apply(data2,MARGIN=1,function(x) (x-min(x))/(max(x)-min(x))))
+t(apply(data2,MARGIN=1,function(x) (x-min(x))/(max(x)-min(x)+1)))
+dnorm = t(apply(data2,MARGIN=1,function(x) (x-min(x))/(max(x)-min(x)+1)))
+dnorm
+rownames(dnorm)
+colnames(dnorm)
+dnorm["C61",]
+dnorm[,"C61"]
+x=dnorm[,"C61"]
+y=dnorm[,"C62"]
+log2(x/y)
+log2(x/(y+1))
+l2fc <- function(x,y) {log2(x/(y+1))}
+l2fc_all <- function(y) {apply(dnorm,MARGIN=2,function(x) l2fc(x,y))}
+apply(dnorm,MARGIN=2,l2fc_all)
+lapply(dnorm,l2fc_all)
+sapply(dnorm,l2fc_all)
+apply(dnorm,MARGIN=2,l2fc_all)
+head(dnorm)
+tmp=head(dnorm)
+apply(tmp,MARGIN=2,l2fc_all)
+a=apply(tmp,MARGIN=2,l2fc_all)
+warnings()
+l2fc_all(y)
+b=l2fc_all(y)
+str(b)
+colnames(b)
+b[."C61"]
+b[,"C61"]
+l2fc <- function(x,y) {log2(x/y)}
+b=l2fc_all(y)
+b[,"C61"]
+b[,"C62"]
+a=apply(tmp,MARGIN=2,l2fc_all)
+warnings()
+tmp
+a=apply(dnorm,MARGIN=2,l2fc_all)
+a
+colnames(a)
+rownames(a)
+dim(a)
+for (x in colnames(dnorm)) {l2fc_all(dnorm[,x])}
+colnames(dnorm)
+for (x in colnames(dnorm)) {print(x); l2fc_all(dnorm[,x])}
+l2fc_all(dnorm[,"C61"])
+a= for (x in colnames(dnorm)) {l2fc_all(dnorm[,x])}
+a
+for (x in colnames(samp)) {print(samp); l2fc_all(dnorm[,samp])}
+for (samp in colnames(dnorm)) {print(samp); l2fc_all(dnorm[,samp])}
+samp
+l2fc_all(dnorm[,samp])
+for (samp in colnames(dnorm)) {print(l2fc_all(dnorm[,samp]))}
+history()
+savehistory("../2021-March-Introduction-to-R-for-Bioinformatics/R/Rhist.out")
