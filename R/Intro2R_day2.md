@@ -1496,8 +1496,9 @@ TRUE
 </tr>
 </tbody>
 </table>
-<p>Save your workspace so we can load it for day 3:</p>
-<pre class="r colsel"><code>save.image(&quot;day2.RData&quot;)</code></pre>
+<p>Save your workspace so we can load it for day 3 and install some packages:</p>
+<pre class="r colsel"><code>save.image(&quot;day2.RData&quot;)
+install.packages(c(&quot;lattice&quot;,&quot;reshape2&quot;,&quot;kableExtra&quot;))</code></pre>
 </div>
 <div id="homework" class="section level2">
 <h2>HOMEWORK</h2>
