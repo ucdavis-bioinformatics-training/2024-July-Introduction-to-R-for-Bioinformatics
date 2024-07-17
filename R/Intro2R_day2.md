@@ -22,15 +22,6 @@ background-color: lightyellow;
 
 
 
-```
-## Warning: `includeHTML()` was provided a `path` that appears to be a complete HTML document.
-## ✖ Path: embed_day2.html
-## ℹ Use `tags$iframe()` to include an HTML document. You can either ensure `path` is accessible in your app or document (see e.g. `shiny::addResourcePath()`) and pass the relative path to the `src` argument. Or you can read the contents of `path` and pass the contents to `srcdoc`.
-```
-
-```{=html}
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -1570,6 +1561,5 @@ $(document).ready(function () {
 
 </body>
 </html>
-```
 
 
