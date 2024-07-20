@@ -28,8 +28,8 @@ navigation:
   - title: Introduction to R Day 3
     url: R/Intro2R_day3
 
-  #- title: Challenge solutions
-  #  url: R/challenge_solutions
+  - title: Challenge solutions
+    url: R/challenge_solutions
 
   - heading: ETC
   - title: Closing thoughts
